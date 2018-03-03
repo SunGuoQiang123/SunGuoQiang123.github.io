@@ -12,7 +12,7 @@ tags:
 
 
 
-## Foreword
+<!-- ## Foreword
 
 > Here comes Module!
 
@@ -82,7 +82,7 @@ CommonJS 前身叫 ServerJS ，**后来希望能更加 COMMON，成为通吃各�
 
 <!--<h2 id="history"> History </h2>-->
 
-> 此段落参考自玉伯的 [前端模块化开发那点历史](https://github.com/seajs/seajs/issues/588)
+<!-- > 此段落参考自玉伯的 [前端模块化开发那点历史](https://github.com/seajs/seajs/issues/588)
 
 09-10 年间，CommonJS（那时还叫 ServerJS） 社区推出 [Modules/1.0](http://wiki.commonjs.org/wiki/Modules) 规范，并且在 Node.js 等环境下取得了很不错的实践。
 
@@ -94,10 +94,10 @@ CommonJS 前身叫 ServerJS ，**后来希望能更加 COMMON，成为通吃各�
 3. **Modules/2.0** 流派。这个观点觉得浏览器有自身的特征，不应该直接用 Modules/1.x 规范，但应该尽可能与 Modules/1.x 规范保持一致。这个观点下的典型代表是 BravoJS 和 FlyScript 的作者。BravoJS 作者对 CommonJS 的社区的贡献很大，这份 Modules/2.0-draft 规范花了很多心思。FlyScript 的作者提出了 Modules/Wrappings 规范，这规范是 CMD 规范的前身。可惜的是 BravoJS 太学院派，FlyScript 后来做了自我阉割，将整个网站（flyscript.org）下线了。这个观点在本文中的典型代表就是 SeaJS 和 CMD 了
 
 
-补一嘴：阿里 KISSY 的 KMD 其实跟 AMD 非常类似，只是用 `add`和`use` 两个源自于 YUI Modules 的函数名替换了 `define` 和 `require` ，但其原理更接近 RequireJS ，与 YUI Modules 的 `Y` 沙箱 Attach 机制并不相同
+补一嘴：阿里 KISSY 的 KMD 其实跟 AMD 非常类似，只是用 `add`和`use` 两个源自于 YUI Modules 的函数名替换了 `define` 和 `require` ，但其原理更接近 RequireJS ，与 YUI Modules 的 `Y` 沙箱 Attach 机制并不相同 -->
 
 
-## RequireJS & AMD
+<!-- ## RequireJS & AMD
 
 [AMD (Async Module Definition)](http://wiki.commonjs.org/wiki/Modules/AsynchronousDefinition) 是 RequireJS 在推广过程中对模块定义的规范化产出。
 
@@ -317,4 +317,4 @@ define(function(require, exports, module) {
 
 ## WebPack
 
-> working...
+> working... -->
